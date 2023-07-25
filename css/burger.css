@@ -1,0 +1,111 @@
+.burger {
+  z-index: 3;
+  position: fixed;
+  transition: all ease-in-out 0.3s;
+}
+.burger__container {
+  transition: all ease-in-out 0.3s;
+  width: 100%;
+  transform: translateX(100%);
+  height: 100vh;
+  max-width: 80%;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  left: 20%;
+  top: 0%;
+  overflow: hidden;
+  padding: 53px 20px;
+  background: linear-gradient(248.62deg, #F55929 -3.03%, #EC1F3D 180.73%);
+}
+.burger.show .burger__container {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: initial;
+  transition: all ease-in-out 0.3s;
+}
+.burger__item a {
+  font: 600 normal 1.5rem "Montserrat";
+  line-height: 1.8125rem;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 15px 0;
+  background: linear-gradient(248.62deg, #ff784e -3.03%, #f1334f 180.73%);
+}
+.burger__item a:hover, .burger__item a:active, .burger__item a:focus {
+  color: #ffffff;
+}
+.burger.show {
+  top: 0;
+}
+.burger__list-menu {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .burger__list-menu {
+    display: block;
+    height: 65vh;
+  }
+}
+.burger__list-menu li {
+  margin: 5px 0;
+}
+
+.menu__btn {
+  z-index: 23;
+  position: absolute;
+  right: 22px;
+  top: 14px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .menu__btn {
+    display: block;
+  }
+}
+.menu__btn span {
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  transition: all ease-in-out 0.3s;
+}
+.menu__btn span:nth-of-type(2) {
+  top: calc(50% - 10px);
+}
+.menu__btn span:nth-of-type(3) {
+  top: calc(50% + 10px);
+}
+.menu__btn.active span:nth-of-type(1) {
+  display: none;
+}
+.menu__btn.active span:nth-of-type(2) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);
+  background-color: #ffffff;
+}
+.menu__btn.active span:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(-45deg);
+  background-color: #ffffff;
+}
+
+.fixed {
+  overflow: hidden;
+  width: 100%;
+}
+
+.scroll {
+  overflow: auto;
+}
+
+#menu__toggle {
+  opacity: 0;
+}

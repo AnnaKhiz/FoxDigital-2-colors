@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+
+    <link rel="stylesheet" href="./css/jquery.floatify.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous" ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" ></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Fox Digital - Khizhniak</title>
+</head>
+<body>
+
+<header class="header" id="header-bg">
+    <div class="container-main">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="switcher hidden">
+                <div class="switch-btn switch-off" data-id="#bl-2" ></div>
+                <div id="bl-2"></div>
+            </div>
+            <nav class="header__navigation">
+                <ul>
+                    <li><a href="#" title="Главная">Главная</a></li>
+                    <li><a href="#" title="О нас">О нас</a></li>
+                    <li><a href="#" title="Наши проекты">Наши проекты</a></li>
+                    <li><a href="#" title="Наши услуги">Наши услуги</a></li>
+                    <li><a href="#" title="Eye-tracking">Eye-tracking</a></li>
+                    <li class="switch">
+                        <div class="switcher">
+                            <div class="switch-btn switch-off" data-id="#bl-2" ></div>
+                            <div id="bl-2"></div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu__btn" id="callBurger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="burger" class="burger">
+            <div class="burger__container">
+                <a href="#"  id="close" class="burger__container-closeLink">
+
+
+                </a>
+                <ul class="burger__list-menu accordion-burger" id="accordionExample">
+                    <li class="burger__item">
+                        <a href="#" class="main__questions-item-label">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="burger__item">
+                        <a href="#" class="main__questions-item-label">
+                            О нас
+                        </a>
+                    </li>
+                    <li class="burger__item">
+                        <a href="#" class="main__questions-item-label">
+                            Наши проекты
+                        </a>
+                    </li>
+                    <li class="burger__item">
+                        <a href="#" class="main__questions-item-label">
+                            Наши услуги
+                        </a>
+                    </li>
+                    <li class="burger__item">
+                        <a href="#" class="main__questions-item-label">
+                            Eye-tracking
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            <div class="container-small">
+                <div class="header__second">
+                    <div class="header__second-info">
+                        <h1 class="header__second-label">
+                            Приведем клиентов в ваш бизнес
+                        </h1>
+                        <p class="header__second-text">
+                            Оставьте заявку на бесплатный аудит прямо сейчас и мы подберем для вас оптимальный пакет продвижения
+                        </p>
+                        <a href="#" class="header__second-button">
+                            Оставить заявку
+                        </a>
+                    </div>
+                    <div class="header__second-img">
+                        <img src="./img/blue-version/header-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container-main">
+        <section class="main__digital">
+            <div class="main__digital-image">
+                <img src="./img/digital_orange.png" alt="image digital" id="aboutNewImage">
+            </div>
+            <div class="main__digital-textBlock">
+                <p class="main__digital-label">
+                    О нас
+                </p>
+
+                <img class="main__digital-imgLogo" src="./img/label-orange.png" alt="label">
+                <p class="main__digital-desc">
+                    Кстати, диаграммы связей, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут представлены в исключительно положительном свете.
+                </p>
+                <p class="main__digital-desc">
+                    Следует отметить, что начало повседневной работы по формированию позиции однозначно определяет каждого участника
+                    как способного принимать собственные решения касаемо экспериментов, поражающих по своей масштабности
+                    и грандиозности.
+                </p>
+            </div>
+        </section>
+
+        <section class="main__advantages" id="counter">
+
+            <div class="main__advantages-item">
+                <div class="main__advantages-item-colorBlock">
+                    <p class="main__advantages-item-colorBlock-text">
+                        ><span class="spincrement-300 padLeftNone">300</span>
+                    </p>
+                </div>
+                <h3 class="main__advantages-item-label">
+                    Проектов завершено
+                </h3>
+                <p class="main__advantages-item-text">
+                    А также сделанные на базе интернет-аналитики выводы формируют глобальную экономическую сеть
+                </p>
+            </div>
+            <div class="main__advantages-item">
+                <div class="main__advantages-item-colorBlock">
+                    <p class="main__advantages-item-colorBlock-text extra-width spincrement-2000">
+                        2000
+                    </p>
+                </div>
+                <h3 class="main__advantages-item-label">
+                    Довольных клиентов
+                </h3>
+                <p class="main__advantages-item-text">
+                    А также сделанные на базе интернет-аналитики выводы формируют глобальную экономическую сеть
+                </p>
+            </div>
+            <div class="main__advantages-item">
+                <div class="main__advantages-item-colorBlock">
+                    <p class="main__advantages-item-colorBlock-text">
+                        %<span class="spincrement-100 padLeftNone">100</span>
+                    </p>
+                </div>
+                <h3 class="main__advantages-item-label">
+                    Доверяют нам
+                </h3>
+                <p class="main__advantages-item-text">
+                    А также сделанные на базе интернет-аналитики выводы формируют глобальную экономическую сеть
+                </p>
+            </div>
+            <div class="main__advantages-item">
+                <div class="main__advantages-item-colorBlock">
+                    <p class="main__advantages-item-colorBlock-text">
+                        %<span class="spincrement-100 padLeftNone">100</span>
+                    </p>
+                </div>
+                <h3 class="main__advantages-item-label">
+                    Доверяют нам
+                </h3>
+                <p class="main__advantages-item-text">
+                    А также сделанные на базе интернет-аналитики выводы формируют глобальную экономическую сеть
+                </p>
+            </div>
+            <div class="main__advantages-item">
+                <div class="main__advantages-item-colorBlock">
+                    <p class="main__advantages-item-colorBlock-text">
+                        %<span class="spincrement-100 padLeftNone">100</span>
+                    </p>
+                </div>
+                <h3 class="main__advantages-item-label">
+                    Доверяют нам
+                </h3>
+                <p class="main__advantages-item-text">
+                    А также сделанные на базе интернет-аналитики выводы формируют глобальную экономическую сеть
+                </p>
+            </div>
+
+        </section>
+    </div>
+    <section class="main__slider" id="main-bg">
+            <div class="container-small">
+                <div class="main__slider-container">
+
+                    <div class="main__slider-form">
+                        <p class="main__slider-form-name">
+                            Наши проекты
+                        </p>
+                        <h2 class="main__slider-form-label">
+                            Приведем клиентов в ваш бизнес
+                        </h2>
+                        <p class="main__slider-form-desc">
+                            Оставьте заявку на бесплатный аудит прямо сейчас и мы подберем для вас оптимальный пакет продвижения
+                        </p>
+                        <form action="#" method="get" id="form-1">
+                            <div><input type="text" required placeholder="Ваше имя" class="form__input-1" id="name-1" ></div>
+                            <div><input type="tel" required placeholder="Ваш телефон" class="form__input-2" id="tel-1" ></div>
+                            <button type="submit" class="changeColorSchema" >
+                                <span>Получить аудит</span>
+                                <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0130098 22.5401C-0.115723 23.3521 0.735851 23.9639 1.46427 23.5828L22.1975 12.7347C22.9127 12.3605 22.9127 11.3368 22.1975 10.9626L1.4674 0.116097C0.738394 -0.265334 -0.113632 0.347709 0.0163564 1.16014L1.14592 8.21995C1.21326 8.64079 1.53992 8.97271 1.95964 9.04675L12.2612 10.8641C13.3629 11.0584 13.3629 12.6393 12.2612 12.8337L1.94604 14.6534C1.52581 14.7275 1.19892 15.0601 1.1321 15.4816L0.0130098 22.5401Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </form>
+
+                    </div>
+
+
+                    <div class="main__slider-swiper swiper mySwiper">
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide" >
+                                <img src="./img/slide-orange-1.png" alt="slide 1" class="changeSlide-1">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/slide-orange-2.png" alt="slide 2">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/slide-orange-3.png" alt="slide 3" class="changeSlide-3">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section class="main__services">
+        <div class="container-small">
+            <p class="main__services-name">
+                Наши услуги
+            </p>
+            <h2 class="main__services-label">
+                Приведем клиентов
+            </h2>
+            <p class="main__services-text">
+                Кстати, диаграммы связей, которые представляют собой яркий пример континентально-европейского типа политической культуры.
+            </p>
+        </div>
+        <div class="container-wide double-dashed-line relative-pos">
+            <div class="main__services-variants ">
+
+                <div class="main__services-variants-item">
+                    <div class="main__services-variants-item-colorBlock">
+                            <svg width="50" height="45" viewBox="0 0 48 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3 0C1.34315 0 0 1.34315 0 3C0 4.65685 1.34315 6 3 6V30C3 33.3137 5.68629 36 9 36H16.7574L12.8787 39.8787C11.7071 41.0503 11.7071 42.9497 12.8787 44.1213C14.0503 45.2929 15.9497 45.2929 17.1213 44.1213L24 37.2426L30.8787 44.1213C32.0503 45.2929 33.9497 45.2929 35.1213 44.1213C36.2929 42.9497 36.2929 41.0503 35.1213 39.8787L31.2426 36H39C42.3137 36 45 33.3137 45 30V6C46.6569 6 48 4.65685 48 3C48 1.34315 46.6569 0 45 0H3ZM38.1213 14.1213C39.2929 12.9497 39.2929 11.0503 38.1213 9.87868C36.9497 8.70711 35.0503 8.70711 33.8787 9.87868L24 19.7574L20.1213 15.8787C18.9497 14.7071 17.0503 14.7071 15.8787 15.8787L9.87868 21.8787C8.70711 23.0503 8.70711 24.9497 9.87868 26.1213C11.0503 27.2929 12.9497 27.2929 14.1213 26.1213L18 22.2426L21.8787 26.1213C23.0503 27.2929 24.9497 27.2929 26.1213 26.1213L38.1213 14.1213Z" fill="white"/>
+                            </svg>
+                    </div>
+                    <h3 class="main__services-item-label">
+                        Разработка стратегии
+                    </h3>
+                    <p class="main__services-item-text">
+                        А также сделанные на базе интернет-аналитики выводы формируют глобальную экономическую сеть
+                    </p>
+
+                </div>
+
+                <div class="main__services-variants-item">
+                    <div class="main__services-variants-item-colorBlock">
+                            <svg width="50" height="45" viewBox="0 0 51 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.375 0C2.85418 0 0 2.87817 0 6.42857V38.5714C0 42.1218 2.85418 45 6.375 45H44.625C48.1458 45 51 42.1218 51 38.5714V6.42857C51 2.87817 48.1458 0 44.625 0H6.375ZM44.625 38.5714H6.375L19.125 12.8571L28.6875 32.1429L35.0625 19.2857L44.625 38.5714Z" fill="white"/>
+                            </svg>
+                    </div>
+                    <h3 class="main__services-item-label">
+                        Дизайн
+                    </h3>
+                    <p class="main__services-item-text">
+                        А также сделанные на базе интернет-аналитики выводы формируют глобальную экономическую сеть
+                    </p>
+
+                </div>
+
+                <div class="main__services-variants-item">
+                    <div class="main__services-variants-item-colorBlock">
+                            <svg width="50" height="45" viewBox="0 0 43 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.13334C0 2.74599 2.75025 0 6.14286 0H36.8571C40.2497 0 43 2.74599 43 6.13334V30.6667C43 34.054 40.2497 36.8 36.8571 36.8H30.0411L30.4163 38.2988L32.8862 40.7649C33.7646 41.6419 34.0274 42.961 33.552 44.1069C33.0766 45.2528 31.9567 46 30.7144 46H12.2858C11.0435 46 9.92357 45.2528 9.44817 44.1069C8.97277 42.961 9.23555 41.6419 10.114 40.7649L12.5838 38.2988L12.9591 36.8H6.14286C2.75025 36.8 0 34.054 0 30.6667V6.13334ZM17.7261 27.6C17.6809 27.599 17.6358 27.599 17.5908 27.6H6.14286V6.13334H36.8571V27.6H25.4093C25.3644 27.599 25.3193 27.599 25.2741 27.6H17.7261Z" fill="white"/>
+                            </svg>
+                    </div>
+                    <h3 class="main__services-item-label">
+                        Верстка
+                    </h3>
+                    <p class="main__services-item-text">
+                        А также сделанные на базе интернет-аналитики выводы формируют глобальную экономическую сеть
+                    </p>
+
+                </div>
+
+                <div class="main__services-variants-item">
+                    <div class="main__services-variants-item-colorBlock">
+                            <svg width="50" height="45" viewBox="0 0 53 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.5001 24.4286C29.5677 24.4286 32.0544 21.9981 32.0544 19C32.0544 16.0019 29.5677 13.5714 26.5001 13.5714C23.4326 13.5714 20.9459 16.0019 20.9459 19C20.9459 21.9981 23.4326 24.4286 26.5001 24.4286Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 19.0001C3.53877 7.9879 14.065 0 26.5 0C38.935 0 49.4612 7.98781 53 18.9999C49.4612 30.0121 38.935 38 26.5 38C14.065 38 3.53884 30.0122 0 19.0001ZM37.6087 19C37.6087 24.9962 32.6352 29.8571 26.5001 29.8571C20.3651 29.8571 15.3916 24.9962 15.3916 19C15.3916 13.0038 20.3651 8.14286 26.5001 8.14286C32.6352 8.14286 37.6087 13.0038 37.6087 19Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <h3 class="main__services-item-label">
+                        Верстка
+                    </h3>
+                    <p class="main__services-item-text">
+                        А также сделанные на базе интернет-аналитики выводы формируют глобальную экономическую сеть
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section class="main__tracking">
+        <div class="container-wide">
+            <div class="main__tracking-container">
+                <div class="main__tracking-item video-frame">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/adxNfMNMRBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="main__tracking-item text-block">
+                    <p class="main__tracking-item-name">
+                        EYE-TRACKING
+                    </p>
+                    <h2 class="main__tracking-item-label">
+                        Эффективная реклама
+                    </h2>
+                    <p class="main__tracking-item-text">
+                        В рамках спецификации современных стандартов, активно развивающиеся страны третьего мира являются только методом политического участия и указаны как претенденты на роль ключевых факторов!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main__steps">
+        <div class="container-wide">
+            <div class="main__steps-container">
+
+                <div class="main__steps-item colorOrange loupe changeColorSchema" id="stepItem-1">
+                    <p class="main__steps-item-label" >
+                        Этап 1
+                    </p>
+                    <p class="main__steps-item-text" id="stepItemLabel-1">
+                        Запрос на исследование
+                    </p>
+                </div>
+
+                <div class="main__steps-item noColor" id="stepItem-2">
+                    <p class="main__steps-item-label blackText" >
+                        Этап 2
+                    </p>
+                    <p class="main__steps-item-text blackText" id="stepItemLabel-2">
+                        Сбор аудитории сервиса Yandex toloka
+                    </p>
+                </div>
+
+                <div class="main__steps-item colorOrange fire changeColorSchema" id="stepItem-3">
+                    <p class="main__steps-item-label" >
+                        Этап 3
+                    </p>
+                    <p class="main__steps-item-text" id="stepItemLabel-3">
+                        Страница исследования с контентом
+                    </p>
+                </div>
+            </div>
+            <div class="main__steps-container reverse">
+                <div class="main__steps-item noColor fire-2" id="stepItem-4">
+                    <p class="main__steps-item-label blackText" >
+                        Этап 4
+                    </p>
+                    <p class="main__steps-item-text blackText" id="stepItemLabel-4">
+                        Фиксация мимики пользователя
+                    </p>
+                </div>
+
+                <div class="main__steps-item colorOrange loupe-2 changeColorSchema" id="stepItem-5">
+                    <p class="main__steps-item-label" >
+                        Этап 5
+                    </p>
+                    <p class="main__steps-item-text" id="stepItemLabel-5">
+                        Обработка данных
+                    </p>
+                </div>
+
+                <div class="main__steps-item noColor" id="stepItem-6">
+                    <p class="main__steps-item-label blackText" >
+                        Этап 6
+                    </p>
+                    <p class="main__steps-item-text blackText" id="stepItemLabel-6">
+                        Результат в вашем аккаунте
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="main__clients" id="footer-bg">
+        <div class="container-small">
+            <p class="main__clients-name">
+                Наши клиенты
+            </p>
+            <h2 class="main__clients-label">
+                Нам доверяют
+            </h2>
+
+            <div class="main__clients-container">
+
+                <div class="main__clients-item">
+                    <img src="./img/footer-img-1.png" alt="footer image" id="image-1">
+                </div>
+
+                <div class="main__clients-item">
+                    <img src="./img/footer-img-2.png" alt="footer image" id="image-2">
+                </div>
+
+                <div class="main__clients-item">
+                    <img src="./img/footer-img-3.png" alt="footer image" id="image-3">
+                </div>
+
+                <div class="main__clients-item">
+                    <img src="./img/footer-img-4.png" alt="footer image" id="image-4">
+                </div>
+
+                <div class="main__clients-item">
+                    <img src="./img/footer-img-5.png" alt="footer image" id="image-5">
+                </div>
+
+                <div class="main__clients-item">
+                    <img src="./img/footer-img-6.png" alt="footer image" id="image-6">
+                </div>
+
+                <div class="main__clients-item">
+                    <img src="./img/footer-img-7.png" alt="footer image" id="image-7">
+                </div>
+
+                <div class="main__clients-item">
+                    <img src="./img/footer-img-8.png" alt="footer image" id="image-8">
+                </div>
+
+                <div class="main__clients-item">
+                    <img src="./img/footer-img-9.png" alt="footer image" id="image-9">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+<footer class="footer">
+    <div class="container-small">
+        <h2 class="footer__label">
+            Оставьте заявку
+        </h2>
+        <p class="footer__text">
+            Получите бесплатный аудит вашего проекта
+        </p>
+        <form action="#" method="get" class="footer__form" id="form-2">
+            <div class="footer__form-block">
+                <div><input type="text" name="name" placeholder="Ваше имя" class="footer__form-input-1" id="name-2"></div>
+                <div><input type="tel" name="tel" placeholder="Телефон" class="footer__form-input-2" id="tel-2"></div>
+            </div>
+            <button type="submit" class="changeColorSchema">
+                <span>Получить аудит</span>
+                <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0130098 22.5401C-0.115723 23.3521 0.735851 23.9639 1.46427 23.5828L22.1975 12.7347C22.9127 12.3605 22.9127 11.3368 22.1975 10.9626L1.4674 0.116097C0.738394 -0.265334 -0.113632 0.347709 0.0163564 1.16014L1.14592 8.21995C1.21326 8.64079 1.53992 8.97271 1.95964 9.04675L12.2612 10.8641C13.3629 11.0584 13.3629 12.6393 12.2612 12.8337L1.94604 14.6534C1.52581 14.7275 1.19892 15.0601 1.1321 15.4816L0.0130098 22.5401Z" fill="white"/>
+                </svg>
+            </button>
+        </form>
+    </div>
+
+    <div class="container-main footer__logo">
+        <img src="./img/logo-black.png" alt="logo black">
+    </div>
+
+</footer>
+
+<script src="js/burger.js" ></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" ></script>
+<script src="js/swiper.js" ></script>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js" ></script>
+<script src="js/jquery.spincrement.js" ></script>
+<script src="js/spinscrement.js" ></script>
+<script src="js/switcher.js" ></script>
+<script src="js/form.js" ></script>
+<script src="js/jquery.floatify.js" ></script>
+<script src="js/placeholder.js" ></script>
+</body>
+</html>
