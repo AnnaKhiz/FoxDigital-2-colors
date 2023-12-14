@@ -368,6 +368,29 @@ body {
   overflow-x: hidden;
 }
 
+.button-back:before {
+  position: fixed;
+  top: calc(50% - 50px);
+  left: 0;
+  z-index: 5;
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  background: white;
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 6px black);
+}
+.button-back:after {
+  position: fixed;
+  top: calc(50% - 50px + 13px);
+  left: 12px;
+  z-index: 6;
+  content: url("../img/icon-arrow-back.svg");
+  cursor: pointer;
+}
+
 .container-main {
   max-width: 1580px;
   padding: 0 15px;

@@ -7,8 +7,6 @@ gulp.task('sass', function(done) {
         .pipe(sass())
         .pipe(gulp.dest("css"))
         .pipe(browserSync.stream());
-
-
     done();
 });
 
